@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat Light', sans-serif;
+;
+}
+/* Header */
+.container{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+/* Header*/
+.header{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header-inner{
+    margin: 2% 0 0 20%;
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+.nav{
+    font-size: 12px;
+}
+.butt_home{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: red;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: .2em 1.5em;
+
+}
+.nav_home:hover{
+    text-decoration: none;
+    color: black;
+}
+.butt_link{
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #b3b4b5;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: .2em .5em;
+
+}
+.butt_sign{
+    color: #b3b4b5;
+    text-decoration: none;
+    user-select: none;
+    background: red;
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.nav_link:hover{
+    color: black;
+}
+
+.butt:hover {
+    background: black; }
+.butt:active {
+    background: black;
+    box-shadow: none;
+}
+/* Search */
+.form-search {
+    display: inline-block;
+    border-bottom: 1px solid red;
+}
+.form-search input {
+    all: unset;
+    color: #b3b4b5;
+    text-transform: none;
+}
+/* Intro */
+.intro{
+    height: 70vh;
+    width: 100vw;
+    display: table;
+    background: url("https://firebasestorage.googleapis.com/v0/b/movie-site-1b0e4.appspot.com/o/intro.png?alt=media&token=fc63c9f8-5c5a-48ca-b37e-e330b511bf42") no-repeat center;
+    background-size: cover;
+    border: none;
+}
+.buttons{
+    margin: 10% 0 0 20%;
+}
+.buttons button{
+    text-transform: uppercase;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+    padding: .2em .5em;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.butt_year{
+    background: yellow;
+
+}
+.butt_jenre1{
+    background: cornflowerblue;
+}
+.butt_jenre2{
+    background: orangered;
+}
+/* Boxes */
+.boxes{
+    height: 30vh;
+    width: 100vw;
+    display: table;
+    background-color: #020d18;
+    background-size: 100%;
+    border: none;
+}
+
+
+/* Mission Impossible */
+.film_playback{
+    height: 55vh;
+    width: 100vw;
+    display: table;
+    background-size:cover;
+    background: url("https://firebasestorage.googleapis.com/v0/b/movie-site-1b0e4.appspot.com/o/mission.png?alt=media&token=a6d04540-2319-4cf7-964f-24074c433a7c") no-repeat center;
+    border: none;
+
+}
