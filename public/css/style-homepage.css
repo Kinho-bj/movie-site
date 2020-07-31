@@ -212,6 +212,8 @@ body>section.boxes>div.scrolling-wrapper-flexbox>div.card{
     background: url("https://firebasestorage.googleapis.com/v0/b/movie-site-1b0e4.appspot.com/o/mission.png?alt=media&token=a6d04540-2319-4cf7-964f-24074c433a7c") no-repeat center;
     border: none;
     background-color: #020d18;
-
-
+}
+iframe{
+    margin-left: 25%;
+    margin-top: 15%;
 }
