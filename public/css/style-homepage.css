@@ -3,7 +3,14 @@
 body{
     margin: 0;
     font-family: 'Montserrat Light', sans-serif;
-;
+}
+body > section.intro > div.row{
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+body>section.boxes>div.scrolling-wrapper-flexbox>div.card{
+    border: none;
 }
 /* Header */
 .container{
@@ -106,17 +113,55 @@ body{
     padding: .2em .5em;
     outline: none;
     border: none;
-    border-radius: 5px;
+    border-radius: 3px;
 }
-.butt_year{
+.year{
     background: yellow;
 
 }
-.butt_jenre1{
+.jenre1{
     background: cornflowerblue;
 }
-.butt_jenre2{
+.jenre2{
     background: orangered;
+}
+.title{
+    color: white;
+    display: block;
+    margin: 0 0 0 20%;
+}
+
+.description{
+    width: 30vw;
+    height: 1vh;
+    color: #b3b4b5;
+    margin: 0 0 0 20%;
+}
+.description button{
+    text-transform: uppercase;
+}
+.butt_play{
+    color: #b3b4b5;
+    text-decoration: none;
+    user-select: none;
+    background: red;
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.butt_add_to_list{
+    color: #b3b4b5;
+    text-decoration: none;
+    user-select: none;
+    background: black;
+    padding: .7em 1.5em;
+    outline: none;
+    border: none;
+    border-radius: 25px;
+}
+.row{
+
 }
 /* Boxes */
 .boxes{
@@ -127,6 +172,35 @@ body{
     background-size: 100%;
     border: none;
 }
+.boxes h5{
+    margin-left: 15%;
+    text-transform: uppercase;
+    color: #b3b4b5;
+}
+.scrolling-wrapper-flexbox {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+}
+.card {
+    flex: 0 0 auto;
+    margin-right: 3px;
+}
+
+.card {
+    width: 225px;
+    height: 200px;
+    background: black;
+}
+.scrolling-wrapper-flexbox {
+    height: 25vh;
+    width: 70vw;
+    margin-left: 15%;
+    -webkit-overflow-scrolling: touch;
+}
+-webkit-scrollbar {
+     display: none;
+ }
 
 
 /* Mission Impossible */
@@ -137,5 +211,7 @@ body{
     background-size:cover;
     background: url("https://firebasestorage.googleapis.com/v0/b/movie-site-1b0e4.appspot.com/o/mission.png?alt=media&token=a6d04540-2319-4cf7-964f-24074c433a7c") no-repeat center;
     border: none;
+    background-color: #020d18;
+
 
 }
